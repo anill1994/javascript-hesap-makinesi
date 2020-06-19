@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input id="alan" type="text">
+    <div>
+    <span><button onclick="arti(1)">1</button></span>
+    <span><button onclick="arti(2)">2</button></span>
+    <span><button onclick="arti()">3</button></span>
+    <span><button onclick="document.getElementById('alan').value +='/'">/</button></span>
+    </div>
+    <div>
+    <span><button onclick="arti(4)">4</button></span>
+    <span><button onclick="arti(5)">5</button></span>
+    <span><button onclick="arti(6)">6</button></span>
+    <span><button onclick="document.getElementById('alan').value +='*'">*</button></span>
+    </div>
+    <div>
+    <span><button onclick="arti(7)">7</button></span>
+    <span><button onclick="arti(8)">8</button></span>
+    <span><button onclick="arti(9)">9</button></span>
+    <span><button onclick="document.getElementById('alan').value +='+'">+</button></span>
+    </div>
+    <div>
+    <span><button onclick="document.getElementById('alan').value =''">C</button></span>
+    <span><button onclick="arti(0)">0</button></span>
+    <span><button onclick="document.getElementById('alan').value=eval(document.getElementById('alan').value)">=</button></span>
+    <span><button onclick="document.getElementById('alan').value +='-'">-</button></span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
